@@ -261,7 +261,8 @@ body:has(.nav-item:hover) .nav-blur{
         }
 
        .article img{
-  width:1000px;
+   width:100%;
+  max-width:1000px;
   height:400px;
   object-fit:cover;
   border-radius:20px;
@@ -303,6 +304,86 @@ body:has(.nav-item:hover) .nav-blur{
         font-size:13px;
         opacity:0.7;
         }
+
+
+        /* =============================
+   MOBILE OPTIMIZATION
+============================= */
+
+@media (max-width: 768px){
+
+    body{
+        padding-top:80px;
+    }
+
+    .container{
+        width:92%;
+    }
+
+    /* NAVBAR */
+    .navbar{
+        padding:12px 20px;
+        border-radius:30px;
+    }
+
+    .logo img{
+        width:32px;
+    }
+
+    .nav-links{
+        display:none; /* hide desktop menu */
+    }
+
+    /* Optional: simple mobile menu button */
+    .menu-toggle{
+        display:block;
+        font-size:22px;
+        cursor:pointer;
+    }
+
+    /* ARTICLE */
+    .article{
+        padding:40px 0;
+    }
+
+    .article h1{
+        font-size:26px;
+        line-height:1.3;
+        margin-bottom:20px;
+    }
+
+    .article img{
+        width:100%;       /* FIXED */
+        height:220px;     /* smaller height */
+        border-radius:14px;
+    }
+
+    .article p{
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    /* CONTACT FORM */
+    .contact-form{
+        width:90%;
+        padding:25px;
+    }
+
+    /* FOOTER */
+    .footer{
+        padding:40px 0;
+    }
+
+    .footer-cols{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .copyright{
+        font-size:12px;
+    }
+}
 
     </style>
 </head>
@@ -375,24 +456,24 @@ body:has(.nav-item:hover) .nav-blur{
 
 
     <p>
-       Ayurveda is one of the world’s oldest holistic health systems, originating in India thousands of years ago. It focuses on maintaining balance in the body through natural methods including diet, herbal remedies, and lifestyle practices. Ayurvedic principles emphasize prevention rather than treatment, encouraging individuals to maintain harmony between the body, mind, and environment.
+        Ayurveda is one of the world’s oldest holistic health systems, originating in India thousands of years ago. It focuses on maintaining balance in the body through natural methods including diet, herbal remedies, and lifestyle practices. Ayurvedic principles emphasize prevention rather than treatment, encouraging individuals to maintain harmony between the body, mind, and environment.
     </p>
 
     <p>
-      A central concept in Ayurveda is the use of natural ingredients to promote health. Herbs, spices, fruits, and plant extracts are commonly used to support digestion, immunity, and overall vitality. Many beverages inspired by Ayurveda include ingredients such as turmeric, ginger, neem, and amla. These ingredients are believed to help maintain internal balance and support long-term wellness.
+        A central concept in Ayurveda is the use of natural ingredients to promote health. Herbs, spices, fruits, and plant extracts are commonly used to support digestion, immunity, and overall vitality. Many beverages inspired by Ayurveda include ingredients such as turmeric, ginger, neem, and amla. These ingredients are believed to help maintain internal balance and support long-term wellness.
     </p>
 
     <p>
-      Modern health science has increasingly recognized the value of many traditional Ayurvedic ingredients. Research has shown that several herbs used in Ayurveda contain antioxidants, anti-inflammatory compounds, and essential nutrients. These findings have helped bridge the gap between traditional knowledge and modern nutritional science. As a result, Ayurvedic ingredients are now widely used in functional foods and wellness beverages.
+        Modern health science has increasingly recognized the value of many traditional Ayurvedic ingredients. Research has shown that several herbs used in Ayurveda contain antioxidants, anti-inflammatory compounds, and essential nutrients. These findings have helped bridge the gap between traditional knowledge and modern nutritional science. As a result, Ayurvedic ingredients are now widely used in functional foods and wellness beverages.
 
     </p>
 
     <p>
-       Ayurveda also emphasizes personalized health practices based on individual body types and lifestyle factors. According to this approach, diet and daily habits should be adapted to maintain balance in the body. This holistic perspective encourages mindful eating, natural remedies, and sustainable wellness practices. These principles continue to influence modern approaches to health and preventive care.
+        Ayurveda also emphasizes personalized health practices based on individual body types and lifestyle factors. According to this approach, diet and daily habits should be adapted to maintain balance in the body. This holistic perspective encourages mindful eating, natural remedies, and sustainable wellness practices. These principles continue to influence modern approaches to health and preventive care.
     </p>
 
     <p>
-      In today’s world, Ayurveda and modern health practices are increasingly being integrated. Many wellness products and beverages combine traditional Ayurvedic ingredients with contemporary nutritional knowledge. This fusion allows people to benefit from both ancient wisdom and modern scientific understanding. As interest in natural health continues to grow, Ayurveda remains an important influence in the development of functional foods and wellness drinks
+        In today’s world, Ayurveda and modern health practices are increasingly being integrated. Many wellness products and beverages combine traditional Ayurvedic ingredients with contemporary nutritional knowledge. This fusion allows people to benefit from both ancient wisdom and modern scientific understanding. As interest in natural health continues to grow, Ayurveda remains an important influence in the development of functional foods and wellness drinks
     </p>
 
     <p>
